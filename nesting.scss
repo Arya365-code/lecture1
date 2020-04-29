@@ -1,0 +1,14 @@
+div {
+    font-size: 18px;
+    
+    p {
+        color: blue;
+    }
+    
+    ul {
+        color: green;
+    }
+}
+/*Notice how the paragraph styling and the unordered list styling are both
+nested INSIDE the div styling. This means the styling will only apply to 
+paragraphs and unordered lists INSIDE the div. */
